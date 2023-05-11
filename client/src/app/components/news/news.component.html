@@ -1,0 +1,8 @@
+<p>news works!</p>
+
+<div *ngFor="let forecast of dataForecast" style="margin-top: 100px">
+  <span>{{forecast.data | date}}</span>
+  <span>C: {{forecast.temperatureC}}</span>
+  <span>F: {{forecast.temperatureF}}</span>
+  <span>{{forecast.summary}}</span>
+</div>
