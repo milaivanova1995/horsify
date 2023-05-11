@@ -1,0 +1,2 @@
+# horsify
+.net + angular application
